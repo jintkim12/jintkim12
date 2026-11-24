@@ -10,9 +10,9 @@ I’m based in Virginia and interested in service desk leadership, IAM, and IT o
 
 These Python projects use synthetic data to explore decisions an IT team faces on shift. Each repository includes a one-page work sample, the source code, and tests.
 
-- **[Service Desk Queue Recovery Simulator](https://github.com/yagohboo/service-desk-queue-recovery-simulator)** compares two ways to assign the next ticket. With three analysts and the same 76 tickets, serving the earliest deadline raised on-time starts from 57 to 70. With two analysts, the same rule helped urgent tickets but cut total on-time starts from 22 to 17.
-- **[Role Change Access Review](https://github.com/yagohboo/role-change-access-review)** traces permissions through nested groups after a job transfer. Across four simulated transfers, it found two excess grants and one missing permission. A follow-up shows why a grant needs review again when its temporary approval expires.
-- **[Backup Restore Verification Lab](https://github.com/yagohboo/backup-restore-verification-lab)** checks whether the next shift can use restored data. Three SQLite restores passed integrity checks, but only one passed the handoff checks. One snapshot was 15 minutes stale. Another assigned an urgent ticket to the wrong team.
+- **[Service Desk Queue Recovery Simulator](https://github.com/jintkim12/service-desk-queue-recovery-simulator)** compares two ways to assign the next ticket. With three analysts and the same 76 tickets, serving the earliest deadline raised on-time starts from 57 to 70. With two analysts, the same rule helped urgent tickets but cut total on-time starts from 22 to 17.
+- **[Role Change Access Review](https://github.com/jintkim12/role-change-access-review)** traces permissions through nested groups after a job transfer. Across four simulated transfers, it found two excess grants and one missing permission. A follow-up shows why a grant needs review again when its temporary approval expires.
+- **[Backup Restore Verification Lab](https://github.com/jintkim12/backup-restore-verification-lab)** checks whether the next shift can use restored data. Three SQLite restores passed integrity checks, but only one passed the handoff checks. One snapshot was 15 minutes stale. Another assigned an urgent ticket to the wrong team.
 
 ## Certifications and education
 
